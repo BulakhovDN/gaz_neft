@@ -24,9 +24,9 @@ services:
       - db
     env_file:
       - .env
-#    ports: # для локального запуска
-#      - "8000:8000"
-#    volumes:
+    ports:
+      - "8000:8000"
+#    volumes: # для локального запуска
 #      - .:/app
 
 volumes:
